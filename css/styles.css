@@ -1,0 +1,222 @@
+/* TODO:Change all percentages into REM. */
+
+/* CSS FOR GENERAL/INDEX */
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+  padding-top: 200px;
+  padding-left: 50px;
+  margin-top: 0;
+  color: #D0A7D5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 562.5%;
+}
+
+span {
+  color: #83B2ED;
+}
+
+.bio {
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 50px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #000000;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  width: 7%;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 27px;
+  position: relative;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+  color: #FFFFFF;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  width: 0;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.top-container {
+  background-color: #000000;
+  height: 800px;
+  margin-bottom: -40px;
+}
+
+.profile {
+  background-color: #000000;
+  margin-bottom: -30px;
+}
+
+.hey {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 262.5%;
+  padding-left: 50px;
+}
+
+.bio2 {
+  color: #FFFFFF;
+  font-size: 162.5%;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: -600px;
+  padding-left: 50px;
+}
+
+.stanpic {
+  width: 40%;
+  height: auto;
+  position: relative;
+  left: 820px;
+}
+
+.bottom-container {
+  background-color: #000000;
+  margin-bottom: -20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 27px;
+  position: relative;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  width: 0;
+  transition: all ease-in-out 250ms;
+}
+
+a:hover::before {
+  width: 100%;
+}
+
+.copyright {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.middle-container {
+  text-align: center;
+}
+/* CSS FOR SKILLS */
+
+.python {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdev {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
